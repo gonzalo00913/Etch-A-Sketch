@@ -1,0 +1,42 @@
+body{
+  text-align: center;
+  background-color: rgb(23, 91, 91);
+}
+h1{
+  font-weight: 300;
+  font-size: 50px;
+  color: white;
+}
+
+.container {
+    width: 660px;
+    height: 660px;
+    display: grid;
+    grid-template-columns: repeat(16, 1fr);
+    grid-template-rows: repeat(16, 1fr);
+    margin: auto;
+
+  }
+
+  .square {
+    background-color: white;
+    border: 1px solid black;
+  
+  }
+
+  all-container{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+   
+  }
+
+  .btn-size{
+    background-color: rgb(0, 147, 34);
+    color: aliceblue;
+    font-size: 23px;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+  }
+ 
